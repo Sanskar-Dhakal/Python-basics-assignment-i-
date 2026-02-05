@@ -24,8 +24,7 @@ That becomes:
 '''
 
 '''
-Unvalidated user input in Python can let attackers manipulate data or logic.
-In a voting system, invalid inputs could allow multiple votes, 
-fake candidate IDs, or corrupted results. 
-Proper input validation prevents fraud, crashes, and data tampering by ensuring inputs are correct, safe, and within expected limits.
+Floating-point precision errors mean computers can’t store some decimal numbers exactly. 
+Because of this, small rounding mistakes happen. In real life, this can cause wrong money calculations, slightly incorrect scientific results, or pricing errors in billing systems. 
+Over time, these tiny errors can add up and cause big problems.
 '''
